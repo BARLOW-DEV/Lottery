@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-xs-12">
+    <input type="text" class="form-control" [(ngModel)]="enteredNumber">
+    <p>{{ enteredNumber }}</p>
+  </div>
+</div>
+
+<button class="btn btn-primary" (click)="onClickAdd(enteredNumber)">{{ buttonText }} </button>
+<button class="btn btn-danger">Delete</button>
+
